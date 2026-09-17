@@ -158,4 +158,4 @@ def entrainer_pyannote(hf_token: str, chemin_sortie: str = "./modèles/modèles_
 #créer_dateset("./corpus/train/audio", "./corpus/train/gold", "./corpus/dataset/train")
 #créer_dateset("./corpus/dev/audio", "./corpus/dev/gold", "./corpus/dataset/dev")
 
-entrainer_pyannote("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")
+entrainer_pyannote("<huggingface token>")
