@@ -95,12 +95,12 @@ def diariser_pyannote(chemin_audio: str, chemin_sortie: str, hugging_face_token:
 diariser_pyannote(
     "./corpus/dev/audio", 
     "./corpus/dev/annotations-pyannote-finetunées", 
-    "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",
+    "<huggingface token>",
     custom_model="./models/pyannote_segmentation_fine_tuné_données_CAENNAIS"
 )
 """
 diariser_nemo(
     "./corpus/dev/audio", 
     "./corpus/dev/nemo", 
-    "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"
+    "<huggingface token>"
 )
